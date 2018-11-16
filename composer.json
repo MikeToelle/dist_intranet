@@ -1,0 +1,28 @@
+{
+    "name": "typo3graf/dist-intranet",
+    "type": "typo3-cms-extension",
+    "description": "Distribution for a Corporate intranet.",
+    "authors": [
+        {
+            "name": "Mike Tölle",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Typo3graf\\DistIntranet\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Typo3graf\\DistIntranet\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "dist_intranet": "self.version",
+        "typo3-ter/dist-intranet": "self.version"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Distribution for a Corporate intranet.",
+        "emConf": {
+            "category": "distribution",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": true,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "8.1.0"
+        },
+        "extensionKey": "dist_intranet",
+        "name": "Intranet-Distribution",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Typo3graf media-agentur",
+                "email": "development@typo3graf.de",
+                "name": "Mike T\u00f6lle",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Typo3graf"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-11-14 09:17",
+        "extension_builder_version": "8.10.2",
+        "be_user": "Typo3graf Developer-Team (1)"
+    }
+}
